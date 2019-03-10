@@ -1,0 +1,10 @@
+language: csharp
+solution: name-sorter.sln
+
+install:
+- dotnet restore
+
+script:
+ - dotnet build
+ - dotnet test
+ - dotnet publish -c Release -o out
