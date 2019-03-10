@@ -1,6 +1,7 @@
 language: csharp
 solution: name-sorter.sln
 
+dotnet: 2.2.100
 install:
 - dotnet restore
 
